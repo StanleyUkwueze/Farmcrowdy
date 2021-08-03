@@ -33,13 +33,53 @@ h6 {
   color: rgb(162, 162, 162);
   margin-right: 15px;
 }
+
 .background {
-  width: 100%;
-  /* background-image: url("images/background.jpeg"); */
+  height: 300px;
+  position: relative;
+  background-image: url("../images/background.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  height: 200px;
+  color: white;
 }
-.background img {
-  width: 100%;
+
+.overlay {
+  height: 262px;
+  background: rgba(0, 0, 0, 0.8);
+  padding-left: 150px;
+  /* background-size: cover; */
+  padding-bottom: 20px;
+  padding-right: 120px;
+  padding-top: 20px;
+  font-size: larger;
+}
+
+button {
+  background-color: rgb(171, 186, 22);
+  color: white;
+  border: none;
+  border-radius: 5%;
+  width: 130px;
+  height: 30px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: white;
+  color: rgb(162, 162, 162);
+}
+.network {
+  display: flex;
+  height: 110px;
+  background-color: #e0f3db;
+  padding: 5px 100px;
+  justify-content: space-between;
+}
+.downarrow {
+  margin-left: 300px;
+  padding-top: 50px;
+}
+.downarrow a {
+  text-decoration: none;
+  color: rgb(171, 186, 22);
+  font-size: 50px;
 }
