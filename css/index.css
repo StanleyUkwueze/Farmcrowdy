@@ -182,7 +182,7 @@
     padding-top: 20px;
     font-size: larger;
     color: white;
-    height: 1100px;
+    /* height: 1100px; */
   }
   
   }
@@ -192,6 +192,7 @@
     background-color: white;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
   .first_3_div2 {
     background-color: white;
@@ -199,6 +200,7 @@
     border-right: 20px;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
   .first_3_div3 {
     background-color: white;
@@ -206,20 +208,22 @@
     border-right: 20px;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
 
-  .second_3_div {
+   .second_3_div {
     display: flex;
-    /* margin-top: 20px; */
-    color: black;
+     /* margin-top: 20px;  */
+     color: black;
     padding: 20px;
-  }
+  } 
   .second_3_div1 {
     background-color: white;
     margin: 15px;
     border-right: 20px;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
   .second_3_div2 {
     background-color: white;
@@ -227,6 +231,7 @@
     border-right: 20px;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
   .second_3_div3 {
     background-color: white;
@@ -234,10 +239,14 @@
     border-right: 20px;
     padding: 20px;
     border-radius: 5%;
+    width: 25%;
   }
   .grid_divs {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    /* display: grid;
+    grid-template-columns: repeat(3, 1fr); */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     color: black;
 
   }
@@ -270,6 +279,37 @@
   .naijamap{
     padding-right: 100px;
   }
+.carousel-item{
 
+
+
+
+
+}
+.carousel-inner{
+  display: flex;
+  height: 400px;
+  width: 80%;
+  margin-bottom: 100px;
+  
+}
+.carousel-item img{
+  /* width: 30%; */
+  margin-left: 150px;
+  position: relative;
+  z-index: -1;
+}
+.para{
+  width: 30%;
+  border: 2px solid gray;
+  height: 190px;
+  border-radius: 5%;
+  position: relative;
+  top: 200px;
+  padding: 10px;
+  background-color: white;
+  margin-left: 30px;
+ 
+}
   
 }
