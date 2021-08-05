@@ -1,0 +1,86 @@
+body{
+    border: 0px;
+}
+
+
+.about-bg{
+    width: 100vw;
+    height: 100vh;
+
+    
+}
+
+.sec2-1{
+    display: flex;
+    padding-top: 5%;
+}
+
+
+.sec2-2{
+    margin-left: 18%;
+    margin-top: -3%;
+
+}
+
+.sec2-3{
+    color: rgb(155, 207, 76);
+    font-size: 70px;
+    width: 300px;
+    
+    
+}
+
+.sec2-4{
+
+    font-size: 30px;
+    margin-top: -18%;
+}
+
+.sec2-5{
+    margin-left: 5%;
+    width:850px;
+    line-height: 25px;
+    font-size: 17px;
+    border-right: 0.1px solid rgb(241, 231, 231);
+    padding-left: 3%;
+    text-align: left;
+
+}
+
+.sec2-7{
+    margin-left: 2%;
+    margin-right: 10%;
+    line-height: 25px;
+    font-size: 17px;
+}
+
+/* End of section 1 */
+
+.redeemer{
+    display: flex;
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
+
+.re1{
+    margin-left: 14%;
+    /* width: 400px; */
+    height: 250px;
+    border-style: solid;
+}
+
+.re2{
+    width: 250px;    
+}
+
+.victory{
+    margin-left: 2%;
+    height: 250px;
+    border-style: solid;
+}
+
+.victory2{
+    margin-left: 2%;
+    height: 280px;
+    border-style: solid;
+}
