@@ -41,16 +41,12 @@
   }
   .home a {
     cursor: pointer;
-    text-decoration: underline;
+    text-decoration: none;
+    color: black;
     /* text-decoration: overline; */
   }
 
-  ul li ul .dropdown {
-    display: none;
-  }
-  ul li:hover ul .dropdown {
-    display: block;
-  }
+ 
 
   /* dropdown navbar ends here */
   .nav_top {
@@ -458,4 +454,5 @@ a {
 }
 ul {
   list-style-type: none;
+}
 }

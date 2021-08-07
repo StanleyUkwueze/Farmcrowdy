@@ -1,86 +1,160 @@
-body{
-    border: 0px;
+body {
+  border: 0px;
+}
+/* navba css starts here */
+nav {
+  display: flex;
+  justify-content: center;
+}
+/* dropdown navbar starts here */
+nav > .dropdown {
+  margin-right: 15px;
+}
+.btn {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.btn:hover {
+  background-color: white;
+  color: black;
+  border: none;
+}
+.home {
+  padding-top: 5px;
+  margin-right: 15px;
+}
+.home a {
+  cursor: pointer;
+  text-decoration: none;
+  color: black;
+  /* text-decoration: overline; */
 }
 
+/* dropdown navbar ends here */
 
-.about-bg{
-    width: 100vw;
-    height: 100vh;
-
-    
+.nav_top {
+  background-color: rgb(238, 238, 238);
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  /* padding-left: 40px; */
+}
+h6 span {
+  margin-left: 600px;
+}
+h6 {
+  margin: 4px 30px;
 }
 
-.sec2-1{
-    display: flex;
-    padding-top: 5%;
+.nav_botom {
+  display: flex;
+  padding: 20px 30px;
+  background-color: white;
+}
+.divlogo {
+  margin-right: 300px;
+}
+.divlink {
+  margin-left: 150px;
+}
+.divlink a {
+  text-decoration: none;
+  color: rgb(162, 162, 162);
+  margin-right: 15px;
+}
+/* navba css ends here */
+
+.about-bg {
+  width: 100vw;
+  height: 100vh;
 }
 
-
-.sec2-2{
-    margin-left: 18%;
-    margin-top: -3%;
-
+.sec2-1 {
+  display: flex;
+  padding-top: 5%;
 }
 
-.sec2-3{
-    color: rgb(155, 207, 76);
-    font-size: 70px;
-    width: 300px;
-    
-    
+.sec2-2 {
+  margin-left: 18%;
+  margin-top: -3%;
 }
 
-.sec2-4{
-
-    font-size: 30px;
-    margin-top: -18%;
+.sec2-3 {
+  color: rgb(155, 207, 76);
+  font-size: 70px;
+  width: 300px;
 }
 
-.sec2-5{
-    margin-left: 5%;
-    width:850px;
-    line-height: 25px;
-    font-size: 17px;
-    border-right: 0.1px solid rgb(241, 231, 231);
-    padding-left: 3%;
-    text-align: left;
-
+.sec2-4 {
+  font-size: 30px;
+  margin-top: -18%;
 }
 
-.sec2-7{
-    margin-left: 2%;
-    margin-right: 10%;
-    line-height: 25px;
-    font-size: 17px;
+.sec2-5 {
+  margin-left: 5%;
+  width: 850px;
+  line-height: 25px;
+  font-size: 17px;
+  border-right: 0.1px solid rgb(241, 231, 231);
+  padding-left: 3%;
+  text-align: left;
+}
+
+.sec2-7 {
+  margin-left: 2%;
+  margin-right: 10%;
+  line-height: 25px;
+  font-size: 17px;
 }
 
 /* End of section 1 */
 
-.redeemer{
-    display: flex;
-    padding-top: 4%;
-    padding-bottom: 4%;
+.redeemer {
+  display: flex;
+  padding-top: 4%;
+  padding-bottom: 4%;
 }
 
-.re1{
-    margin-left: 14%;
-    /* width: 400px; */
-    height: 250px;
-    border-style: solid;
+.re1 {
+  margin-left: 14%;
+  /* width: 400px; */
+  height: 250px;
+  border-style: solid;
 }
 
-.re2{
-    width: 250px;    
+.re2 {
+  width: 250px;
 }
 
-.victory{
-    margin-left: 2%;
-    height: 250px;
-    border-style: solid;
+.victory {
+  margin-left: 2%;
+  height: 250px;
+  border-style: solid;
 }
 
-.victory2{
-    margin-left: 2%;
-    height: 280px;
-    border-style: solid;
+.victory2 {
+  margin-left: 2%;
+  height: 280px;
+  border-style: solid;
+}
+
+/* footer css starts here */
+.footer_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.footer_grid a {
+  color: black;
+  text-decoration: none;
+}
+.footer_grid a:hover {
+  color: rgb(171, 186, 22);
+}
+.footer_container {
+  padding: 30px 60px;
+}
+ul {
+  list-style-type: none;
 }
